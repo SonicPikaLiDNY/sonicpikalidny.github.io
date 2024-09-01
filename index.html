@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SonicPika's Basement</title>
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #fafafa;
+        }
+        .mdl-layout__header {
+            background-color: #3f51b5;
+        }
+        .mdl-tabs__tab {
+            color: #ffffff;
+            font-weight: bold;
+        }
+        .mdl-tabs__tab.is-active {
+            background-color: #303f9f;
+            color: #757575;
+        }
+        .mdl-tabs__panel {
+            padding: 20px;
+            background-color: #ffffff;
+        }
+        .section-header {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .mdl-button {
+            margin: 5px 0;
+            border-radius: 4px;
+            min-width: 120px;
+            text-align: center;
+        }
+        .mdl-button--raised {
+            background-color: #3f51b5;
+            color: #ffffff;
+            text-transform: uppercase;
+        }
+        .mdl-button--raised:hover {
+            background-color: #303f9f;
+        }
+        .mdl-button--accent {
+            background-color: #f44336;
+            color: #ffffff;
+        }
+        .mdl-button--accent:hover {
+            background-color: #c62828;
+        }
+        .mdl-tabs__tab-bar {
+            background-color: #3f51b5;
+        }
+        .project-list, .social-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .project-list li, .social-list li {
+            margin-bottom: 10px;
+        }
+        .mdl-button {
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <span class="mdl-layout-title">SonicPika's Basement</span>
+            </div>
+        </header>
+
+        <main class="mdl-layout__content">
+            <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
+                <div class="mdl-tabs__tab-bar">
+                    <a href="#about-me" class="mdl-tabs__tab is-active">About Me</a>
+                    <a href="#projects" class="mdl-tabs__tab">Projects</a>
+                    <a href="#socials" class="mdl-tabs__tab">Socials</a>
+                    <a href="#collection" class="mdl-tabs__tab">Collection</a>
+                </div>
+                <div class="mdl-tabs__panel is-active" id="about-me">
+                    <div class="section-header">About Me</div>
+                    <p>Badly doing tech stuff for 3 years now XD</p>
+                </div>
+                <div class="mdl-tabs__panel" id="projects">
+                    <div class="section-header">Projects</div>
+                    <ul class="project-list">
+                        <li>
+                            <p>A small group of people, founded by me, now 4 people are in it. Most notable for making Koteyka and Lots of tech (Windows Customizations, Apps and Websites, among other things)</p>
+                            <a href="https://lidny.online" target="_blank" class="mdl-button mdl-button--raised">LiDNY</a>
+                        </li>
+                        <li>
+                            <p>A small cypher consisting of: :3 :O :D :P, nothing notable, just a fun Project </p>
+                            <a href="https://sonicpikalidny.github.io/KoteykasCypher/" target="_blank" class="mdl-button mdl-button--raised">Koteyka's Cypher</a>
+                        </li>
+                        <li>
+                            <p>Downloading Files and Uploading them, thats what File Host means, right?</p>
+                            <a href="https://github.com/LiDNY/KoteykaFiles" target="_blank" class="mdl-button mdl-button--raised">Koteyka's Files</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="mdl-tabs__panel" id="socials">
+                    <div class="section-header">Socials</div>
+                    <ul class="social-list">
+                        <li><a href="https://github.com/SonicPikaLiDNY" target="_blank" class="mdl-button mdl-button--raised">GitHub</a></li>
+                        <li><a href="https://youtube.com/@SonicPika._." target="_blank" class="mdl-button mdl-button--raised">YouTube</a></li>
+                        <li><a href="https://dsc.gg/lidny" target="_blank" class="mdl-button mdl-button--raised">Discord</a></li>
+                    </ul>
+                </div>
+                <div class="mdl-tabs__panel" id="collection">
+                    <div class="section-header">My Tech Collection</div>
+                    <ul>
+                        <li>Samsung A3 2017</li>
+                        <li>Samsung J1 2016</li>
+                        <li>Samsung Tab S3</li>
+                        <li>Samsung A50</li>
+                        <li>Samsung S3 Mini</li>
+                        <li>adding more soon cuz i forgor</li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+</body>
+</html>
